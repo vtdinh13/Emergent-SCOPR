@@ -4,10 +4,10 @@
 
 ## Models
 1. **Doors and windows**
-    - YOLOv8 was used for the task of object detection to develop a model for detecting and counting the number of doors and windows.
+    - YOLOv8s was used for the task of object detection to develop a model for detecting and counting the number of doors and windows.
     - The model was trained on house images from Roboflow.
 2. **Condition of roof base**
-    - YOLOv8 was used for segmentation to develop a model for detecting and classifying roof base conditions.
+    - YOLOv8s-seg was used for segmentation to develop a model for detecting and classifying roof base conditions.
     - Annotations were created using the CVAT software.
     - A mAP@0.5 of 0.724 was achieved across all classes on the validation set.
 4. **Roof materials**
